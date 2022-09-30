@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		330CF79E28E7339100797D57 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330CF79D28E7339100797D57 /* HomeVC.swift */; };
 		330CF7A228E7394800797D57 /* TableVC .swift in Sources */ = {isa = PBXBuildFile; fileRef = 330CF7A128E7394800797D57 /* TableVC .swift */; };
+		330CF7A428E76A8900797D57 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330CF7A328E76A8900797D57 /* MyCell.swift */; };
 		33FBF00B28E36B5700D0D487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBF00A28E36B5700D0D487 /* AppDelegate.swift */; };
 		33FBF00D28E36B5700D0D487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBF00C28E36B5700D0D487 /* SceneDelegate.swift */; };
 		33FBF00F28E36B5700D0D487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBF00E28E36B5700D0D487 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		330CF79D28E7339100797D57 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		330CF7A128E7394800797D57 /* TableVC .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableVC .swift"; sourceTree = "<group>"; };
+		330CF7A328E76A8900797D57 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		33FBF00728E36B5700D0D487 /* EjercicioClase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjercicioClase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FBF00A28E36B5700D0D487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33FBF00C28E36B5700D0D487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				33FBF01828E36B5800D0D487 /* Info.plist */,
 				330CF79D28E7339100797D57 /* HomeVC.swift */,
 				330CF7A128E7394800797D57 /* TableVC .swift */,
+				330CF7A328E76A8900797D57 /* MyCell.swift */,
 			);
 			path = EjercicioClase;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				33FBF00F28E36B5700D0D487 /* ViewController.swift in Sources */,
 				330CF7A228E7394800797D57 /* TableVC .swift in Sources */,
 				330CF79E28E7339100797D57 /* HomeVC.swift in Sources */,
+				330CF7A428E76A8900797D57 /* MyCell.swift in Sources */,
 				33FBF00B28E36B5700D0D487 /* AppDelegate.swift in Sources */,
 				33FBF00D28E36B5700D0D487 /* SceneDelegate.swift in Sources */,
 			);

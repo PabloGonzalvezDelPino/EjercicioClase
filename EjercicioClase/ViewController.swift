@@ -26,9 +26,10 @@ class ViewController: UIViewController {
         user = userET.text ?? ""
         pass = passEt.text ?? ""
         
-        if user == "jose" && pass == "1234" {
+        if user == "Jose" && pass == "1234" {
             performSegue(withIdentifier: "segueLoginToHome", sender: nil)
         }else{
+            
             
             
         }

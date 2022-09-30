@@ -13,16 +13,27 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     let datosTabla = ["Yasuo", "Darius", "Garen", "Shaco", "Teemo"]
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100.0
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return datosTabla.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "miCelda", for: indexPath)
+        
+        //var cell = tableView.dequeueReusableCell(withIdentifier: "miCelda", for: indexPath)
+        
+        let proCell: MyCell = tableView.dequeueReusableCell(withIdentifier: "proCell", for: indexPath) as! MyCell
+        
+        
+        
         let name = datosTabla[indexPath.row]
-        cell.textLabel?.text = name
-        return cell
+        //cell.textLabel?.text = name
+        proCell.nameLB.text = name
+        return proCell
+        
     }
     
     
